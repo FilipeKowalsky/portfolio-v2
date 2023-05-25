@@ -13,7 +13,7 @@ export const Projects = () => {
               <p className="label">{project.descricao}</p>
               <p className="span" href="">Saiba mais</p>
             </div>
-            <img className={styles.image} src="src/assets/git-icon.png" alt="icon Github" />
+            <img className={styles.image} src="/src/assets/git-icon.png" alt="icon Github" />
           </div>
         ))}
       </div>
