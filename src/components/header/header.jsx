@@ -15,7 +15,7 @@ export const Header = () => {
           <p href="" className="label">Projetos</p>
         </li>
       </ul>
-      <Button text={'Contato'}/>
+      <Button text={"Contato"}/>
     </header>
   )
 }
