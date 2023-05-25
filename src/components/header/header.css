@@ -1,0 +1,30 @@
+header{
+  width: 80%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > ul{
+  width: 90%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0 25px 0;
+}
+
+@media (min-width: 650px)
+{
+  header{
+    width: 90%;
+    max-width: 1000px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header > ul{
+    width: 256px;
+  }
+}

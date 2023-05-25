@@ -1,0 +1,58 @@
+.title{
+  font-size: var(--size-1);
+  font-weight: var(--weight-1);
+  color: #ffffff;
+}
+
+.subTitle{
+  font-size: var(--size-2);
+  font-weight: var(--weight-1);
+  color: #ffffff;
+}
+
+.description{
+  font-size: var(--size-3);
+  font-weight: var(--weight-1);
+  color: #ffffff;
+}
+
+.label{
+  font-size: var(--size-5);
+  font-weight: var(--weight-3);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.label:hover{
+  cursor: pointer;
+}
+
+.link{
+  font-size: var(--size-4);
+  font-weight: var(--weight-2);
+  color: #ffffff;
+}
+
+.paragraph{
+  font-size: var(--size-4);
+  font-weight: var(--weight-3);
+  color: #ffffff;
+}
+
+.profile{
+  font-size: var(--size-4);
+  font-weight: var(--weight-3);
+  color: var(--color-primary-hover);
+}
+
+.span{
+  font-size: var(--size-4);
+  font-weight: var(--weight-3);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.span:hover{
+  color: var(--color-primary-hover);
+  cursor: pointer;
+}
