@@ -1,5 +1,6 @@
 import { projects } from "../../../../data/projects";
 import styles from "../ProjectSec/section.module.css"
+import GitIcon from '../../../../assets/git-icon.png'
 
 export const Projects = () => {
   return (
@@ -13,7 +14,7 @@ export const Projects = () => {
               <p className="label">{project.descricao}</p>
               <p className="span" href="">Saiba mais</p>
             </div>
-            <img className={styles.image} src="/src/assets/git-icon.png" alt="icon Github" />
+            <img className={styles.image} src={GitIcon} alt="icon Github" />
           </div>
         ))}
       </div>

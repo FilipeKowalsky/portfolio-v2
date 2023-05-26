@@ -9,3 +9,4 @@ export const technologies = [
   { name: "Javascript", img: jsIcon },
   { name: "React", img: reactIcon },
 ];
+

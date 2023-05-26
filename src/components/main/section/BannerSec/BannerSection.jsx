@@ -1,6 +1,7 @@
 import { username } from '../../../../data/user';
 import { Button } from '../../../button/button';
 import styles from './section.module.css';
+import BannerImg from '../../../../assets/banner-img.png'
 
 export const BannerSection = () => {
   return (
@@ -13,8 +14,7 @@ export const BannerSection = () => {
           <Button text={'Saiba mais'} />
         </div>
         <div>
-          <img className={styles.image} src="/src/assets/banner-img.png" alt="Imagem de um setup com algumas notificações visíveis e sem dados a mostrar" />
-
+          <img className={styles.image} src={BannerImg} alt="Imagem de um setup com algumas notificações visíveis e sem dados a mostrar" />
         </div>
       </div>
     </section>
