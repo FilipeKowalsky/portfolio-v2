@@ -13,8 +13,10 @@ export const BannerSection = () => {
           <p className='paragraph'>Uma frase interessante sobre mim</p>
           <Button text={'Saiba mais'} />
         </div>
-        <div>
-          <img className={styles.image} src={BannerImg} alt="Imagem de um setup com algumas notificações visíveis e sem dados a mostrar" />
+        <div className={styles.imageContainer}>
+          <div>
+            <img className={styles.image} src={BannerImg} alt="Imagem de um setup com algumas notificações visíveis e sem dados a mostrar" />
+          </div>
         </div>
       </div>
     </section>

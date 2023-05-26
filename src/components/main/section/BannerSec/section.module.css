@@ -15,11 +15,17 @@
 }
 
 .profile{
-  width: clamp(240px, 70vw, 500px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
+}
+
+.imageContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image{
@@ -40,6 +46,9 @@
   }
   .image{
     width: clamp(300px, 45vw, 500px);
+  }
+  .imageContainer{
+    flex-direction: row-reverse;
   }
   
 }
