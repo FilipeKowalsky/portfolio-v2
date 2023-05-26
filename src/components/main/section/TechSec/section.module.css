@@ -8,16 +8,27 @@
 
 .container{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 35px;
 }
 
 .card{
-  width: clamp(280px, 40%, 310px);
+  width: 100%;
   display: flex;
   align-items: center;
   border: 1px solid white;
   border-radius: 25px;
   padding: 20px;
   gap: 50px;
+}
+
+@media (min-width: 800px)
+{
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }  
+  .card{
+    width: clamp(253px, 43%, 310px);
+  }
 }

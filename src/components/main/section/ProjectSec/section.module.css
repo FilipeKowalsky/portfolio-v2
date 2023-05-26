@@ -9,12 +9,12 @@
 .container{
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 15px;
 }
 
 .card{
-  width: clamp(310px, 60%, 492px);
+  width: 100%;
   border: 1px solid white;
   border-radius: 25px;
   padding: 25px;
@@ -31,4 +31,22 @@
 .image{
   width: 37px;
   height: 35px;
+}
+
+@media (min-width: 800px)
+{
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }  
+  .card{
+    width: clamp(253px, 47%, 492px);
+  }
+}
+
+@media (min-width: 1000px)
+{
+  .card{
+    width: clamp(253px, 49%, 492px);
+  }
 }

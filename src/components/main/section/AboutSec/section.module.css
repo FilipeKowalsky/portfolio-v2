@@ -2,15 +2,22 @@
   margin: 65px 0 55px 0;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   gap: 35px;
 }
 
 .section > h2{
-  width: 210px;
+  width: 301px;
 }
 
 .section > p{
-  width: clamp(300px, 60vw, 700px)
+  width: clamp(250px, 100%, 700px)
+}
+
+@media (min-width: 800px)
+{
+  .section{
+    flex-direction: row;
+  }  
 }
