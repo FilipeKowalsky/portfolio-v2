@@ -1,6 +1,5 @@
 import { Button } from "../button/button";
-import { scrollToSection } from "../../utils;scroll"
-
+import { scrollToSection } from "../utils/scroll";
 
 export const Header = () => {
   return (
