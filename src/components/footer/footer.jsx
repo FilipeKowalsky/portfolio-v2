@@ -1,7 +1,4 @@
 import { user } from "../../data/user";
-import WhatsAppIcon from "../../assets/whatsapp-icon.png";
-import LinkedInIcon from "../../assets/linkedin-icon.png";
-import GitHubIcon from "../../assets/github-icon.png";
 
 export const Footer = () => {
   return (
@@ -17,7 +14,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               title="Send me a message on WhatsApp"
             >
-              <img src={WhatsAppIcon} alt="WhatsApp" />
+              <img src="/whatsapp-icon.png" alt="WhatsApp" />
             </a>
             <a
               href="https://www.linkedin.com/in/filipe-kowalsky/"
@@ -25,7 +22,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               title="Visit my LinkedIn"
             >
-              <img src={LinkedInIcon} alt="LinkedIn" />
+              <img src="/linkedin-icon.png" alt="LinkedIn" />
             </a>
             <a
               href="https://github.com/FilipeKowalsky"
@@ -33,7 +30,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               title="Check my GitHub"
             >
-              <img src={GitHubIcon} alt="GitHub" />
+              <img src="/github-icon.png" alt="GitHub" />
             </a>
           </div>
         </div>
