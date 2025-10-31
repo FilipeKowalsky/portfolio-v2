@@ -1,21 +1,25 @@
 import { Button } from "../button/button";
+import { scrollToSection } from "../../utils;scroll"
+
 
 export const Header = () => {
-  return(
+  return (
     <header>
       <h1 className="description">Portfólio</h1>
+
       <ul>
         <li>
-          <p href="" className="label">Sobre</p>
+          <p className="label" onClick={() => scrollToSection("about")}>About</p>
         </li>
         <li>
-          <p href="" className="label">Stack</p>
+          <p className="label" onClick={() => scrollToSection("stack")}>Stack</p>
         </li>
         <li>
-          <p href="" className="label">Projetos</p>
+          <p className="label" onClick={() => scrollToSection("projects")}>Projects</p>
         </li>
       </ul>
-      <Button text={"Contato"}/>
+
+      <Button id="contact" text="Contato" onClick={() => scrollToSection("contact")} variant="header" />
     </header>
   )
 }

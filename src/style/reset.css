@@ -44,3 +44,7 @@ body, input, button, textarea{
 button{
 	cursor: pointer;
 }
+
+html {
+  scroll-behavior: smooth;
+}

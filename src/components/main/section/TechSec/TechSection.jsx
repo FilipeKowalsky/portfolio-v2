@@ -3,14 +3,14 @@ import { technologies } from "../../../../data/technologies";
 
 export const TechSection = () =>{
   return(
-    <section className={styles.section}>
-      <h1 className='subTitle'>Tecnologias</h1>
-      <div className={styles.container}>
-        {technologies.map((technologie) => (
-          <div className={styles.card}>
-            <img src={technologie.img} alt="" />
-            <h2 className="description">{technologie.name}</h2>
-          </div>
+    <section id="stack" className={styles.section}>
+    <h1 className='subTitle'>Technologies</h1>
+    <div className={styles.container}>
+    {technologies.map((tech) => (
+      <div key={tech.name} className={styles.card}>
+        <img src={tech.img} alt={tech.name} />
+        <h2 className="description">{tech.name}</h2>
+      </div>
         ))}
       </div>
     </section>
